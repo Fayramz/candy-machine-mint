@@ -18,14 +18,18 @@ import {
   mintOneToken,
   shortenAddress,
 } from "./candy-machine";
+import { LaptopWindows } from "@material-ui/icons";
 
-const ConnectButton = styled(WalletDialogButton)``;
-
+const ConnectButton = styled(WalletDialogButton)`background-color: #4CAF50 !important; `;
 const CounterText = styled.span``; // add your styles here
-
 const MintContainer = styled.div``; // add your styles here
+const MintButton = styled(Button)` padding: 25px !important;
+background-color:#4CAF50 !important; color:white !important`; // add your styles here
 
-const MintButton = styled(Button)``; // add your styles here
+const TestContainer = styled.div``; // add your styles here
+const ConnectButton2 = styled(Button)``;
+
+
 
 export interface HomeProps {
   candyMachineId: anchor.web3.PublicKey;
@@ -82,6 +86,12 @@ const Home = (props: HomeProps) => {
       setCandyMachine(candyMachine);
     })();
   };
+  const onKhra = async () => {
+    console.log('Le lien a été cliqué.');
+    window.location.assign('https://www.twitter.com');
+    
+  };
+
 
   const onMint = async () => {
     try {
@@ -207,6 +217,14 @@ const Home = (props: HomeProps) => {
           </MintButton>
         )}
       </MintContainer>
+
+      <TestContainer>
+        
+      <ConnectButton2 onClick={onKhra}>About</ConnectButton2>
+
+      
+      </TestContainer>
+
 
       <Snackbar
         open={alertState.open}

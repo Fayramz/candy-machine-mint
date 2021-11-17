@@ -1,0 +1,19 @@
+pubkey: rrtHDnD9XTeAceT6z34vJm5uLiQbuJ3MDye8xjAYP5A
+
+devote lion melody erode camp boss length seek hungry sleep fence coconut
+
+
+candy machine with publickey: DgNrs5oaPWJdRLrR1511AK18UPa9rHBstchJyuUfXsbx
+
+{"program":{"uuid":"DgNrs5","config":"DgNrs5oaPWJdRLrR1511AK18UPa9rHBstchJyuUfXsbx"},"items":{"0":{"link":"https://arweave.net/XUq2M_D13Dj0ovffeHs54PVxO0VsJZzWiQjE_TxnUn4","name":"NFT 0","onChain":true},"1":{"link":"https://arweave.net/QXO6BWR8t91P9qTQG2zyiRL2hasSR7PuPmA3dSPbUZ4","name":"NFT 1","onChain":true}},"env":"devnet","cacheName":"temp","authority":"rrtHDnD9XTeAceT6z34vJm5uLiQbuJ3MDye8xjAYP5A"}
+
+
+candy machine pubkey: Emt7aNgcuKwtAtyhctAyxAsH7PjaXpSPDy9kTnbwsu8z
+
+timestamp: 983401200
+
+
+must lens beach armed judge typical outside brain start beef discover will
+
+ http://localhost:3000
+  On Your Network:  http://192.168.56.1:3000  
